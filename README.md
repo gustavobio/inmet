@@ -25,7 +25,7 @@ station_info
 Climate data:
 ```station_data_summary
 # A tibble: 3,952,876 x 8
-      id       date  prec temp_max temp_min temp_mean insol  umid
+      id       date  prec temp_max temp_min temp_mean insol  humid
    <dbl>     <date> <dbl>    <dbl>    <dbl>     <dbl> <dbl> <dbl>
  1 82024 1961-01-01   0.0     32.3     22.9     26.56   4.4 82.50
  2 82024 1961-01-02  16.0     33.2     23.7     28.06  10.0 77.50
