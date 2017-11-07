@@ -1,5 +1,5 @@
 # inmet
-R package with climate data from 261 stations across Brazil.
+R package with daily climate data from 261 stations across Brazil.
 
 Currently, there are two datasets:
 
