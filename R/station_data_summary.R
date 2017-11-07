@@ -9,11 +9,11 @@
 #' \describe{
 #' \item{id}{Station ID.}
 #' \item{date}{Record date.}
-#' \item{prec}{Total rainfall in (mm).}
-#' \item{temp_max}{Maximum temperature (ºC).}
-#' \item{temp_min}{Minimum temperature (ºC).}
-#' \item{temp_mean}{Mean temperature (ºC).}
-#' \item{insol}{Insolation (hours).}
-#' \item{humid}{Mean relative humidity (%).}
+#' \item{prec}{Total rainfall in mm.}
+#' \item{temp_max}{Maximum temperature in degrees celcius.}
+#' \item{temp_min}{Minimum temperature in degrees celcius.}
+#' \item{temp_mean}{Mean temperature in degrees celcius.}
+#' \item{insol}{Insolation hours.}
+#' \item{humid}{Mean relative humidity as percentage.}
 #' }
 "station_data_summary"

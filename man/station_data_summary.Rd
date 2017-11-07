@@ -4,7 +4,17 @@
 \name{station_data_summary}
 \alias{station_data_summary}
 \title{INMET stations data}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 3952876 rows and 8 columns.}
+\format{Data frame with columns
+\describe{
+\item{id}{Station ID.}
+\item{date}{Record date.}
+\item{prec}{Total rainfall in mm.}
+\item{temp_max}{Maximum temperature in degrees celcius.}
+\item{temp_min}{Minimum temperature in degrees celcius.}
+\item{temp_mean}{Mean temperature in degrees celcius.}
+\item{insol}{Insolation hours.}
+\item{humid}{Mean relative humidity as percentage.}
+}}
 \source{
 INMET, Instituto Nacional de Meteorologia, \url{http://inmet.gov.br}
 }
