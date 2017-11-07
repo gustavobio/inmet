@@ -6,7 +6,6 @@ Currently, there are two datasets:
 Station metadata:
 ```
 station_info
-# A tibble: 261 x 9
       id      start        end complete days_missing                 locality state latitude longitude
    <dbl>     <date>     <date>    <lgl>        <int>                    <chr> <chr>    <dbl>     <dbl>
  1 82024 1961-01-01 2017-10-05    FALSE         5163                BOA VISTA    RR     2.81    -60.65
@@ -24,7 +23,6 @@ station_info
 
 Climate data:
 ```station_data_summary
-# A tibble: 3,952,876 x 8
       id       date  prec temp_max temp_min temp_mean insol  humid
    <dbl>     <date> <dbl>    <dbl>    <dbl>     <dbl> <dbl> <dbl>
  1 82024 1961-01-01   0.0     32.3     22.9     26.56   4.4 82.50
