@@ -6,7 +6,7 @@
 \title{INMET stations information}
 \format{Data frame with columns
 \describe{
-\item{id}{Station ID.}
+\item{station_id}{Station ID.}
 \item{start}{Start of the available period.}
 \item{end}{End of the available period.}
 \item{complete}{Logical indicating if there are days with missing data.}
