@@ -7,7 +7,7 @@
 #' @source INMET, Instituto Nacional de Meteorologia, \url{http://inmet.gov.br}
 #' @format Data frame with columns
 #' \describe{
-#' \item{id}{Station ID.}
+#' \item{station_id}{Station ID.}
 #' \item{date}{Record date.}
 #' \item{prec}{Total rainfall in mm.}
 #' \item{temp_max}{Maximum temperature in degrees celcius.}
