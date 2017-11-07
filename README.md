@@ -1,12 +1,9 @@
 # inmet
-R package with daily climate data from 261 stations across Brazil.
-
-Currently, there are two datasets:
+R package with daily climate data from 261 stations across Brazil. Currently, there are two datasets.
 
 Station metadata:
 ```
 station_info
-# A tibble: 261 x 9
       id      start        end complete days_missing                 locality state latitude longitude
    <dbl>     <date>     <date>    <lgl>        <int>                    <chr> <chr>    <dbl>     <dbl>
  1 82024 1961-01-01 2017-10-05    FALSE         5163                BOA VISTA    RR     2.81    -60.65
@@ -24,8 +21,7 @@ station_info
 
 Climate data:
 ```station_data_summary
-# A tibble: 3,952,876 x 8
-      id       date  prec temp_max temp_min temp_mean insol  umid
+      id       date  prec temp_max temp_min temp_mean insol  humid
    <dbl>     <date> <dbl>    <dbl>    <dbl>     <dbl> <dbl> <dbl>
  1 82024 1961-01-01   0.0     32.3     22.9     26.56   4.4 82.50
  2 82024 1961-01-02  16.0     33.2     23.7     28.06  10.0 77.50
@@ -39,3 +35,7 @@ Climate data:
 10 82024 1961-01-10   0.0     32.3     22.6     26.96   7.0 81.25
 # ... with 3,952,866 more rows
 ```
+
+Locations:
+
+![station_locations](https://user-images.githubusercontent.com/30267/32496341-0ec4ae6c-c3b0-11e7-8bde-9ef6cf60e673.png)
