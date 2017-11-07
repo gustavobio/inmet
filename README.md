@@ -39,3 +39,7 @@ Climate data:
 10 82024 1961-01-10   0.0     32.3     22.6     26.96   7.0 81.25
 # ... with 3,952,866 more rows
 ```
+
+Locations:
+
+![station_locations](https://user-images.githubusercontent.com/30267/32496341-0ec4ae6c-c3b0-11e7-8bde-9ef6cf60e673.png)
